@@ -34,7 +34,6 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            cd lib_book_tracking
             python manage.py test
 
       - store_artifacts:
